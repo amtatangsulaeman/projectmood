@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const EXPLORE = [
   { label: "Bathhouse", href: "#bathhouse" },
   { label: "Training Club", href: "#training" },
@@ -26,9 +28,14 @@ export default function Footer() {
         <div className="grid grid-cols-2 gap-y-12 gap-x-8 md:grid-cols-12 md:gap-x-10">
           {/* Brand block */}
           <div className="col-span-2 md:col-span-4">
-            <p className="font-display text-[32px] uppercase leading-none tracking-wideish">
-              Project Mood
-            </p>
+            <Image
+              src="/images/logo.png"
+              alt="Project Mood"
+              width={220}
+              height={56}
+              className="h-10 w-auto"
+            />
+            <span className="sr-only">Project Mood</span>
             <p className="mt-5 max-w-[260px] font-body text-[14px] leading-[1.55] text-paper/85">
               Melbourne's home for movement, recovery, and reset
             </p>

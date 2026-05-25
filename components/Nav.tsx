@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
@@ -58,11 +59,15 @@ export default function Nav() {
 
         <div className="relative mx-auto flex h-full max-w-[1440px] items-center justify-between gap-6 px-6 md:px-10">
           <div className="flex h-full items-center gap-8 md:gap-12">
-            <Link
-              href="/"
-              className="font-display text-[18px] uppercase tracking-wideish leading-none whitespace-nowrap"
-            >
-              Project Mood
+            <Link href="/" aria-label="Project Mood" className="block">
+              <Image
+                src="/images/logo.png"
+                alt="Project Mood"
+                width={140}
+                height={36}
+                priority
+                className="h-7 w-auto md:h-8"
+              />
             </Link>
 
             <nav className="hidden md:flex items-center gap-7 lg:gap-10">
@@ -184,9 +189,16 @@ export default function Nav() {
           <Link
             href="/"
             onClick={() => setOpen(false)}
-            className="font-display text-[18px] uppercase tracking-wideish"
+            aria-label="Project Mood"
+            className="block"
           >
-            Project Mood
+            <Image
+              src="/images/logo.png"
+              alt="Project Mood"
+              width={140}
+              height={36}
+              className="h-7 w-auto"
+            />
           </Link>
           <button
             aria-label="Close menu"
