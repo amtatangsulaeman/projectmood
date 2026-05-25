@@ -5,7 +5,8 @@
       "Bash(cp \"We’re spicing things up in Reformer! Start your Fridays strong with our Runner Activation Reform.jpg\" reformer.jpg)",
       "Bash(cp \"The lululemon Emporium team got their team sweat on with Coach Mia in the Strength & Conditionin.jpg\" training.jpg)",
       "Bash(cp \"Project Mood1 \\(2\\).jpg\" gym.jpg)",
-      "Bash(cp \"Project Mood1.jpg\" membership.jpg)"
+      "Bash(cp \"Project Mood1.jpg\" membership.jpg)",
+      "WebFetch(domain:www.projectmood.com.au)"
     ]
   }
 }
