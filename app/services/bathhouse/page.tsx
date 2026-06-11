@@ -80,7 +80,7 @@ export default function BathhousePage() {
             alt=""
             fill
             sizes="100vw"
-            className="mono object-cover"
+            className="object-cover"
           />
         </div>
       </ImageReveal>

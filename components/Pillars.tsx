@@ -116,7 +116,7 @@ function PillarRow1({ p }: { p: Pillar }) {
             alt=""
             fill
             sizes="(min-width: 768px) 60vw, 100vw"
-            className="mono object-cover"
+            className="object-cover"
           />
         </div>
       </ImageReveal>
@@ -140,7 +140,7 @@ function PillarRow2({ p }: { p: Pillar }) {
             alt=""
             fill
             sizes="100vw"
-            className="mono object-cover"
+            className="object-cover"
           />
         </div>
       </ImageReveal>
@@ -176,7 +176,7 @@ function PillarRow3({ p }: { p: Pillar }) {
             alt=""
             fill
             sizes="(min-width: 768px) 33vw, 100vw"
-            className="mono object-cover"
+            className="object-cover"
           />
         </div>
       </ImageReveal>
@@ -199,7 +199,7 @@ function PillarRow4({ p }: { p: Pillar }) {
               alt=""
               fill
               sizes="(min-width: 768px) 50vw, 100vw"
-              className="mono object-cover"
+              className="object-cover"
             />
           </div>
         </ImageReveal>

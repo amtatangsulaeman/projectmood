@@ -74,7 +74,7 @@ export default function ReformerPage() {
                   alt=""
                   fill
                   sizes="(min-width: 768px) 30vw, 100vw"
-                  className="mono object-cover"
+                  className="object-cover"
                 />
               </div>
             </ImageReveal>
@@ -93,7 +93,7 @@ export default function ReformerPage() {
                   alt=""
                   fill
                   sizes="(min-width: 768px) 55vw, 100vw"
-                  className="mono object-cover"
+                  className="object-cover"
                 />
               </div>
             </ImageReveal>

@@ -57,7 +57,7 @@ export default function GymPage() {
                   alt=""
                   fill
                   sizes="(min-width: 768px) 30vw, 100vw"
-                  className="mono object-cover"
+                  className="object-cover"
                 />
               </div>
             </ImageReveal>
